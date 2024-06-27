@@ -1,0 +1,1105 @@
+<!doctype html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <title>Midjourney AI 图像生成应用及提示词合集 Vol.1 | 实验室 | Facto</title>
+        <meta name="description" content="全面的数字解决方案提供商。">
+        <link rel="canonical" href="https://www.facto.hk">
+        <meta http-equiv="Content-Type" content="text/html">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+        <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/static/favicon/site.webmanifest">
+        <link rel="mask-icon" href="/static/favicon/safari-pinned-tab.svg" color="#fc1c46">
+        <meta name="msapplication-TileColor" content="#fc1c46">
+        <meta name="theme-color" content="#fc1c46">
+        <link rel="stylesheet" href="/assets/app.css">
+        <link rel="modulepreload" href="/assets/vendor.js">
+		
+   </head>
+<body class="bg-black is-loading">
+        <div class="sh z20 fix top left x pt30">
+            <div class="sh__inner row row--l gutter aic">
+                <div class="logo">
+                    <img src="/static/logo-icon.svg" width="405 " height="80" alt="Facto logo" class="db x">
+                </div>
+            </div>
+        </div>
+        <header class="sh fix top left x pt30">
+            <div class="sh__inner row row--l gutter aic">
+                <a href="https://facto.hk" id="link_home" class="logo">
+                    <img src="/static/logo-text.svg" width="405 " height="80" alt="Facto logo" class="db x">
+                </a>
+				<!-- lang -->
+		<div id="lang">
+    		<ul class="lang clearfix">
+     		   <li class="on tra10">
+        		  <span>中文</span>
+        		</li>
+       			 <li class="tra10">
+					 <a class="lang_link" href="http://facto.hk/en">EN</a>
+       			</li>
+    		</ul>
+  		</div>
+<!-- common -->
+	<div class="dn s:db sh-desc abs f12 pen js-sh-usp js-sh-item">
+		<div data-smooth-item-o>全面的数字解决方案提供商 <sup>/ 始于2015</sup>
+		</div>
+		</div>
+
+                <button type="button" class="mt mla | js-menu-toggle" title="menu">
+                    <div class="mt-burger df fc aie">
+                        <div class="mt-line"></div>
+                        <div class="mt-line"></div>
+                    </div>
+                </button>
+            </div>
+        </header>
+        <aside class="menu fix top left x y c-black oh | js-menu">
+            <div class="menu__inner abs top left x y oh z2 df aic">
+                <div class="row fw gutter rel">
+                <ul class="menu__list df fc ais s:w50 mb60 s:mb0">
+				<li class="menu__item">
+					<a href="https://facto.hk/projects/" id="link_projects" class="oh db f50 s:f75 ls1" data-transition="menu">
+						<div class="df ais | js-m-reveal">项目<sup>13</sup></div>
+					</a>
+				</li>
+				<li class="menu__item">
+					<a href="https://facto.hk/about/" id="link_about" class="oh db f50 s:f75 ls1" data-transition="menu">
+						<div class="df ais | js-m-reveal">关于我们</div>
+					</a>
+				</li>
+				<li class="menu__item">
+					<a href="https://facto.hk/careers/" class="oh db f50 s:f75 ls1" data-transition="menu">
+						<div class="df ais | js-m-reveal">加入我们<sup>1</sup>
+						</div>
+					</a>
+				</li>
+				<li class="menu__item">
+					<a href="https://facto.hk/blog/" class="oh db f50 s:f75 ls1" data-transition="menu">
+						<div class="df ais | js-m-reveal">实验室<sup>BLOG</sup>
+						</div>
+					</a>
+				</li>
+				<li class="menu__item">
+					<a href="https://facto.hk/contact/" class="oh db f50 s:f75 ls1" data-transition="menu">
+						<div class="df ais | js-m-reveal">联系我们
+						</div>
+					</a>
+				</li>
+				</ul>
+                    <div class="menu__content x s:w30 s:mra s:on1 js-m-fade">
+                        <figure class="x dn s:db">
+                            <a href="https://facto.hk">
+                                <img src="/static/logo-mark.svg" width="143" height="181" alt="Facto logo" class="db x s:w70">
+                            </a>
+                        </figure>
+<!-- common
+			<div class="f18 s:nowrap mt30 oh">Comprehensive digital solutions provider.
+			</div>
+-->	
+<!-- common -->					
+			<div class="df ais f14px mt30 x">
+				<div class="w50">
+					<strong class="f14px db oh mb15">与我们共事</strong>
+					<ul>
+						<li><a href="mailto:hi@facto.hk?subject=Hi!" class="f14px db oh link">hi@facto.hk</a></li>
+						<li><a href="https://facto.hk/contact/" class="f14px db oh link">联系我们</a>
+						</li>
+					</ul>
+				</div>
+				<div class="w50">
+					<strong class="f14px db oh mb15">关注我们</strong>
+					<ul>
+						<li><a href="https://www.instagram.com/facto.hk" class="f14px db oh link" target="_blank" rel="noreferrer">Instagram</a>
+						</li>
+						<li><a href="https://twitter.com/facto_hk" class="f14px db oh link" target="_blank" rel="noreferrer">Twitter</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</aside>
+        <div class="dn s:db fix top left x y pen z10 | js-pe"></div>
+        <div class="mask fix top left x y mask bg-black | js-mask"></div>
+        <div id="gl" style="opacity: 0"></div>
+        <div class="gl-blob"></div>
+        <div data-gl-case></div>
+        <main class="scroll js-site-wrap" role="main" itemscope itemprop="mainContentOfPage" data-router-wrapper data-smooth style="visibility: hidden;">
+            <article data-router-view="blog-single" id="blog-single" class="blog-single bg-white">
+                <div class="bp-hero rel oh bg-black" data-smooth-item>
+                    <figure class="bp-hero__figure">
+                        <img class="bp-hero__bg" src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/header.jpg?auto=compress,format&blur=150" alt="Facto">
+                    </figure>
+                    <div class="bp-hero__top pt125 pb60 s:pv0 row df aic rel z2">
+                        <div class="bp-hero__top__img img-fill pos abs top50 right x s:col18 dn s:db">
+                            <div class="aspect" style="--aspect: 56.25%"></div>
+                            <img src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/header.jpg?auto=compress,format" alt="Facto">
+                        </div>
+                        <div class="bp-hero__text col s:col10 s:mcoll2 rel df fc">
+                            <a href="/blog/" class="bp-hero__arrow dn s:db">
+                                <span class="bp-hero__arrow__wrap">
+                                    <div class="arrow-foward direction--left alignment--left">
+                                        <div class="arrow-foward__line"></div>
+                                    </div>
+                                </span>
+                            </a>
+                            <div class="bp-hero__hash db pb30">
+								<span>#AIGC</span>
+								<span>#Midjourney</span>
+                            </div>
+                            <h1 class="f37 lh100">Midjourney AI 图像生成应用及提示词合集 Vol.1</h1>
+                        </div>
+                    </div>
+                    <div class="bp-hero__content rel row z2 pb60">
+                        <div class="col8 s:col4 s:mcoll2">
+                            <span class="db author lh110">
+                                作者<br>Facto
+                            </span>
+                            <span class="db date lh110 mt15">(2023.6.30)</span>
+                            <div class="bp-social">
+                                <a href="//twitter.com/intent/tweet?url=https://www.facto.hk/blog/professional-website-design-matters/" target="_blank" title="Share on Twitter">
+                                    <span>Twitter</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 15 12">
+                                        <path d="M228.994,987.419a6.189,6.189,0,0,1-1.767.477,3.047,3.047,0,0,0,1.353-1.674,6.214,6.214,0,0,1-1.954.734A3.1,3.1,0,0,0,224.38,986a3.052,3.052,0,0,0-3.077,3.027,2.961,2.961,0,0,0,.08.69,8.786,8.786,0,0,1-6.342-3.163,2.983,2.983,0,0,0-.416,1.522,3.016,3.016,0,0,0,1.368,2.52,3.1,3.1,0,0,1-1.393-.38v0.039a3.042,3.042,0,0,0,2.468,2.968,3.142,3.142,0,0,1-.811.106,3.072,3.072,0,0,1-.579-0.055,3.075,3.075,0,0,0,2.874,2.1,6.229,6.229,0,0,1-3.821,1.3,6.144,6.144,0,0,1-.734-0.042,8.813,8.813,0,0,0,4.717,1.36,8.618,8.618,0,0,0,8.753-8.611c0-.13,0-0.261-0.009-0.392A6.166,6.166,0,0,0,228.994,987.419Z" transform="translate(-214 -986)"/>
+                                    </svg>
+                                </a>
+                                <a href="//www.facebook.com/sharer.php?u=https://www.facto.hk/blog/professional-website-design-matters/" target="_blank" title="Share on Facebook">
+                                    <span>Facebook</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8.937" height="16" viewBox="0 0 8.937 16">
+                                        <path d="M262.746,1000v-7.3h2.641l0.4-2.845h-3.037v-1.816c0-.824.246-1.385,1.52-1.385h1.624v-2.543a23.2,23.2,0,0,0-2.367-.113c-2.341,0-3.944,1.326-3.944,3.76v2.1H256.93V992.7h2.649v7.3h3.167Z" transform="translate(-256.938 -984)"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col16 s:col15 f30 bp-intro">
+                            <p class="">免费分享 80 张 Midjourney AI 生成画作，供你在项目中使用或启发灵感。附带创作提示词！</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bp-content row c-black pt75 mb20" data-smooth-item>
+                    <div class="col txt txt--bp">
+                        <p class="">今天，我们非常高兴地向你呈献我们首个 AI 生成图像系列之 Midjourney 合集。Midjourney 系列以及即将推出的 Stable Diffusion 系列将深入探索美妙的 AI 图像生成领域，供你在个人和商业项目中免费下载并依照 <a class="link" rel="noreferrer noopener" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> 许可使用。你可以在创意设计、广告营销、媒体出版或其他任何项目中使用。</p>
+						<p>此外，你还可以直接复制提示词并尝试自己生成类似的 AI 图像作品。</p>
+						<p>如果你愿意与我们分享你的 AI 画作，请<a class="link" href="https://facto.hk/contact/">联系我们</a>，我们会在后期的系列中提供特别展示。</p>
+						<p>以下图像均由 Midjourney 生成并经过了 AI 无损放大处理。</p>
+                    </div>
+                </div>
+				
+<!-- Fashion Photography -->
+<div class="bp-content row c-black mt5 mb5" data-smooth-item>
+	<div class="col txt txt--bp">
+		<h3 class="">时尚摄影</h3>
+	</div>
+</div>
+<div class="row fw mb20" data-smooth-item>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_1.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_1.jpg?auto=compress,format" data-alt="professional high-end photography, close-up portrait, minimal urban fashion editorial, green elements, low angle, Hasselblad H6D-100c, sun and shadow, golden hour">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_2.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_2.jpg?auto=compress,format" data-alt="professional high-end photography, close-up portrait, minimal urban fashion editorial, green elements, low angle, Hasselblad H6D-100c, sun and shadow, golden hour">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_3.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_3.jpg?auto=compress,format" data-alt="editorial featuring a model with brown hair, modern jewelry, muted earth tones, light bronze, beautiful glowing skin, close-up">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_4.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_4.jpg?auto=compress,format" data-alt="editorial featuring a model with brown hair, modern jewelry, muted earth tones, light bronze, beautiful glowing skin, close-up">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_5.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_5.jpg?auto=compress,format" data-alt="minimal urban fashion editorial, close-up portrait, red elements, edgy, futurism, low angle, sun and shadow, golden hour">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_6.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_6.jpg?auto=compress,format" data-alt="minimal urban fashion editorial, close-up portrait, red elements, edgy, futurism, low angle, sun and shadow, golden hour">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_7.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_7.jpg?auto=compress,format" data-alt="minimal urban fashion editorial, close-up portrait, green elements, edgy, futurism, low angle, sun and shadow, golden hour">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_8.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_8.jpg?auto=compress,format" data-alt="minimal urban fashion editorial, close-up portrait, green elements, edgy, futurism, low angle, sun and shadow, golden hour">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_9.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_9.jpg?auto=compress,format" data-alt="minimal urban fashion editorial, close-up portrait, aquamarine elements, edgy, futurism, low angle, sun and shadow, golden hour">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_10.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_photography/image_10.jpg?auto=compress,format" data-alt="minimal urban fashion editorial, close-up portrait, aquamarine elements, edgy, futurism, low angle, sun and shadow, golden hour">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+</div>
+				
+<!-- Fashion Jewelry -->
+<div class="bp-content row c-black mt5 mb5" data-smooth-item>
+	<div class="col txt txt--bp">
+		<h3 class="">时尚珠宝</h3>
+	</div>
+</div>
+<div class="row fw mb20" data-smooth-item>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_1.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_1.jpg?auto=compress,format" data-alt="a piece of fine jewelry, rays of sunlight, pastel colors, professional photography, minimal background">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_2.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_2.jpg?auto=compress,format" data-alt="a golden necklace, editorial, rays of sunlight, pastel colors, professional photography, minimal background">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_3.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_3.jpg?auto=compress,format" data-alt="a golden necklace, editorial, rays of sunlight, pastel colors, professional photography, minimal background">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_4.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_4.jpg?auto=compress,format" data-alt="a golden necklace, editorial, rays of sunlight, pastel colors, professional photography, minimal background">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_5.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_5.jpg?auto=compress,format" data-alt="a piece of fine jewelry, rays of sunlight, pastel colors, professional photography, minimal background">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_6.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_6.jpg?auto=compress,format" data-alt="a piece of fine jewelry, rays of sunlight, minimal colors, professional photography, minimal background">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_7.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_7.jpg?auto=compress,format" data-alt="a piece of fine jewelry, golden hour, professional photography, minimal background">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_8.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_8.jpg?auto=compress,format" data-alt="a golden necklace, editorial, rays of sunlight, pastel colors, professional photography, minimal background">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_9.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_9.jpg?auto=compress,format" data-alt="fashion jewelry, minimal, editorial, rays of sunlight, pastel colors, professional photography, minimal background">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_10.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_10.jpg?auto=compress,format" data-alt="fashion jewelry, minimal, editorial, rays of sunlight, pastel colors, professional photography, minimal background">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_11.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_11.jpg?auto=compress,format" data-alt="fashion jewelry, editorial, rays of sunlight, pastel colors, professional photography, minimal background">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_12.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/fashion_jewelry/image_12.jpg?auto=compress,format" data-alt="fashion jewelry, editorial, rays of sunlight, pastel colors, professional photography, minimal background">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+</div>				
+
+<!-- Minimal Sculptures -->
+<div class="bp-content row c-black mt5 mb5" data-smooth-item>
+	<div class="col txt txt--bp">
+		<h3 class="">简约雕塑</h3>
+	</div>
+</div>
+<div class="row fw mb20" data-smooth-item>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/minimal_sculptures/image_1.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/minimal_sculptures/image_1.jpg?auto=compress,format" data-alt="conceptual minimalist sculpture, pastel color theme, rendered in cinema4d">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/minimal_sculptures/image_2.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/minimal_sculptures/image_2.jpg?auto=compress,format" data-alt="conceptual minimalist sculpture, pastel color theme, rendered in cinema4d">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/minimal_sculptures/image_3.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/minimal_sculptures/image_3.jpg?auto=compress,format" data-alt="conceptual minimalist sculpture, pastel color theme, rendered in cinema4d">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/minimal_sculptures/image_4.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/minimal_sculptures/image_4.jpg?auto=compress,format" data-alt="conceptual minimalist sculpture, pastel color theme, rendered in cinema4d">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+</div>
+				
+<!-- 3D Lounge Area -->	
+<div class="bp-content row c-black mt5 mb5" data-smooth-item>
+	<div class="col txt txt--bp">
+		<h3 class="">3D 休息区</h3>
+	</div>
+</div>
+<div class="row fw mb20" data-smooth-item>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_1.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-00.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_1.jpg?auto=compress,format" data-alt="a fluffy lounge area, a 3D render, minimal, inspired by Ricardo Bofill, retrofuturism, light blue colors, high res render">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_2.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-00.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_2.jpg?auto=compress,format" data-alt="a fluffy lounge area, a 3D render, minimal, inspired by Ricardo Bofill, retrofuturism, light blue colors, high res render">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_3.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-73.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_3.jpg?auto=compress,format" data-alt="a fluffy lounge area, a 3D render, minimal, inspired by Ricardo Bofill, retrofuturism, bright pastel color, high res render">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_4.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-73.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_4.jpg?auto=compress,format" data-alt="a fluffy lounge area, a 3D render, minimal, inspired by Ricardo Bofill, retrofuturism, bright pastel color, high res render">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+	<div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_5.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-73.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_5.jpg?auto=compress,format" data-alt="a fluffy lounge area, a 3D render, minimal, inspired by Ricardo Bofill, retrofuturism, light blue colors, high res render">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+	<div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_6.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-73.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_6.jpg?auto=compress,format" data-alt="a bar in the clouds, indoor, a 3D render, minimal, inspired by Ricardo Bofill, retrofuturism, light blue color, high res render">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+	<div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_7.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-00.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_7.jpg?auto=compress,format" data-alt="a beautiful pool area, lounge chairs, a 3D render, minimal, inspired by Ricardo Bofill, retrofuturism, light blue colors, high res render">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+	<div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_8.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-00.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_8.jpg?auto=compress,format" data-alt="a beautiful pool area, lounge chairs, a 3D render, minimal, inspired by Ricardo Bofill, retrofuturism, light blue colors, high res render">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+	<div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_9.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-00.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_9.jpg?auto=compress,format" data-alt="a beautiful pool area, lounge chairs, a 3D render, minimal, inspired by Ricardo Bofill, retrofuturism, light blue colors, high res render">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+	<div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_10.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-00.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_lounge_area/image_10.jpg?auto=compress,format" data-alt="a beautiful pool area, lounge chairs, a 3D render, minimal, inspired by Ricardo Bofill, retrofuturism, light blue colors, high res render">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+</div>
+				
+				
+<!-- Cute 3D Building Models -->
+<div class="bp-content row c-black mt5 mb5" data-smooth-item>
+	<div class="col txt txt--bp">
+		<h3 class="">3D 建筑模型</h3>
+	</div>
+</div>
+<div class="row fw mb20" data-smooth-item>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/cute_3d_building_models/image_1.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-00.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/cute_3d_building_models/image_1.jpg?auto=compress,format" data-alt="3D render of a fluffy building, Antoni Gaudí, minimal, inspired by Ricardo Bofill, retrofuturism, pastel colors, high res render">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/cute_3d_building_models/image_2.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-00.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/cute_3d_building_models/image_2.jpg?auto=compress,format" data-alt="3D render of a fluffy building, Antoni Gaudí, minimal, inspired by Ricardo Bofill, retrofuturism, pastel colors, high res render">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/cute_3d_building_models/image_3.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-00.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/cute_3d_building_models/image_3.jpg?auto=compress,format" data-alt="3D render of a fluffy building, Antoni Gaudí, minimal, inspired by Ricardo Bofill, retrofuturism, pastel colors, high res render">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/cute_3d_building_models/image_4.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-00.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/cute_3d_building_models/image_4.jpg?auto=compress,format" data-alt="3D render of a fluffy building, Antoni Gaudí, minimal, inspired by Ricardo Bofill, retrofuturism, pastel colors, high res render">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Futuristic Haute Couture -->
+<div class="bp-content row c-black mt5 mb5" data-smooth-item>
+	<div class="col txt txt--bp">
+		<h3 class="">未来主义高级时装</h3>
+	</div>
+</div>
+<div class="row fw mb20" data-smooth-item>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_1.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_1.jpg?auto=compress,format" data-alt="model, haute couture, white, intricate details, futuristic outfit, extraordinary makeup, blue lips, gorgeous, weird, serious, 4k">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+	<div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_2.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_2.jpg?auto=compress,format" data-alt="model, haute couture, white, intricate details, futuristic outfit, extraordinary makeup, red lips, gorgeous, weird, serious, 4k">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_3.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_3.jpg?auto=compress,format" data-alt="model, haute couture, white, intricate details, futuristic outfit, extraordinary makeup, yellow lips, gorgeous, weird, serious, 4k">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+	<div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_4.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_4.jpg?auto=compress,format" data-alt="model, haute couture, white, intricate details, futuristic outfit, extraordinary makeup, yellow lips, gorgeous, weird, serious, 4k">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_5.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_5.jpg?auto=compress,format" data-alt="model, haute couture, white, intricate details, pastel colors, futuristic outfit, extravanganza, gorgeous, weird, interesting face, serious, 4k">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+	<div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_6.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_6.jpg?auto=compress,format" data-alt="model, haute couture, white, intricate details, pastel colors, futuristic outfit, extravanganza, gorgeous, weird, interesting face, serious, 4k">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+	<div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_7.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_7.jpg?auto=compress,format" data-alt="model, haute couture, white, intricate details, pastel colors, futuristic outfit, extravanganza, gorgeous, weird, interesting face, serious, 4k">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+	<div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_8.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_8.jpg?auto=compress,format" data-alt="model, haute couture, white, intricate details, pastel colors, futuristic outfit, extraordinary makeup, japanese porcelaine doll, gorgeous, weird, serious, 4k">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+	<div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_9.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_9.jpg?auto=compress,format" data-alt="actress, relaxed pose, haute couture, white, intricate details, filagree, futuristic outfit, extraordinary makeup, red lips, red hair, gorgeous, weird, serious, 4k">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+	<div class="col11 s:col11 xs:col11 imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_10.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/0-67.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/futuristic_haute_couture/image_10.jpg?auto=compress,format" data-alt="model, haute couture, white, intricate details, futuristic outfit, extraordinary makeup, red lips, red hair, gorgeous, weird, serious, 4k">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Soft Glowing Shapes -->
+<div class="bp-content row c-black mt5 mb5" data-smooth-item>
+	<div class="col txt txt--bp">
+		<h3 class="">柔和发光形状</h3>
+	</div>
+</div>
+<div class="row fw mb20" data-smooth-item>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/soft_glowing_shapes/image_1.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/2-33.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/soft_glowing_shapes/image_1.jpg?auto=compress,format" data-alt="in the distance a subtle light coming from a colorful glow, dotted lines, grainy texture, subtle beauty, elegance, distorted form, depth of field, 8k, dark, soft glow, minimalist beauty, organic shape">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/soft_glowing_shapes/image_2.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/2-33.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/soft_glowing_shapes/image_2.jpg?auto=compress,format" data-alt="in the distance a subtle light coming from a violet glow, dotted lines, grainy texture, subtle beauty, elegance, distorted form, depth of field, 8k, dark, soft glow, minimalist beauty, organic shape">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/soft_glowing_shapes/image_3.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/2-33.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/soft_glowing_shapes/image_3.jpg?auto=compress,format" data-alt="in the distance a subtle light coming from a violet glow, dotted lines, grainy texture, subtle beauty, elegance, distorted form, depth of field, 8k, dark, soft glow, minimalist beauty, organic shape">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/soft_glowing_shapes/image_4.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/2-33.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/soft_glowing_shapes/image_4.jpg?auto=compress,format" data-alt="in the distance a subtle light coming from a colorful glow, dotted lines, grainy texture, subtle beauty, elegance, distorted form, depth of field, 8k, dark, soft glow, minimalist beauty, organic shape">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Afternoon Hangout-->
+<div class="bp-content row c-black mt5 mb5" data-smooth-item>
+	<div class="col txt txt--bp">
+		<h3 class="">午后聚会场所</h3>
+	</div>
+</div>
+<div class="row fw mb20" data-smooth-item>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/afternoon_hangout/image_1.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/afternoon_hangout/image_1.jpg?auto=compress,format" data-alt="3D render, bright pastel colors, cinema 4d, afternoon hangout, random background scene, winter setting">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/afternoon_hangout/image_2.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/afternoon_hangout/image_2.jpg?auto=compress,format" data-alt="3D render, bright pastel colors, cinema 4d, afternoon hangout, random background scene, winter setting">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/afternoon_hangout/image_3.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/afternoon_hangout/image_3.jpg?auto=compress,format" data-alt="3D render, bright pastel colors, cinema 4d, afternoon hangout, random background scene, winter setting">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/afternoon_hangout/image_4.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/afternoon_hangout/image_4.jpg?auto=compress,format" data-alt="3D render, bright pastel colors, cinema 4d, afternoon hangout, random background scene, winter setting">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/afternoon_hangout/image_5.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/afternoon_hangout/image_5.jpg?auto=compress,format" data-alt="3D render, bright pastel colors, cinema 4d, afternoon hangout, random background scene, summer setting">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/afternoon_hangout/image_6.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/afternoon_hangout/image_6.jpg?auto=compress,format" data-alt="3D render, bright pastel colors, cinema 4d, afternoon hangout, random background scene, summer setting">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+</div>
+				
+<!-- 3D Object Compositions -->
+<div class="bp-content row c-black mt5 mb5" data-smooth-item>
+	<div class="col txt txt--bp">
+		<h3 class="">3D 物体组合</h3>
+	</div>
+</div>
+<div class="row fw mb20" data-smooth-item>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_1.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_1.jpg?auto=compress,format" data-alt="a composition of interesting 3D shapes, pearl color, pastel color theme, C4D, studio lighting, oc rendering">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_2.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_2.jpg?auto=compress,format" data-alt="a composition of interesting 3D shapes, pearl color, pastel color theme, C4D, studio lighting, oc rendering">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_3.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_3.jpg?auto=compress,format" data-alt="a composition of interesting 3D shapes, pearl color, C4D, studio lighting, oc rendering">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_4.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_4.jpg?auto=compress,format" data-alt="a composition of interesting 3D shapes, metal and paint, pastel color theme, C4D, studio lighting, oc rendering">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_5.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_5.jpg?auto=compress,format" data-alt="a composition of interesting 3D shapes, metal and paint, neon and black colors, C4D, studio lighting, oc rendering">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_6.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_6.jpg?auto=compress,format" data-alt="a composition of interesting 3D shapes, gold and clay, pastel color theme, C4D, studio lighting, oc rendering">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_7.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_7.jpg?auto=compress,format" data-alt="a composition of interesting 3D shapes, futurism, pastel color theme, C4D, studio lighting, oc rendering">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_8.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/3d_object_compositions/image_8.jpg?auto=compress,format" data-alt="a composition of interesting 3d objects, shiny, glossy, pastel colors, cinema4d">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Pearls and Shells -->
+<div class="bp-content row c-black mt5 mb5" data-smooth-item>
+	<div class="col txt txt--bp">
+		<h3 class="">珍珠贝壳</h3>
+	</div>
+</div>
+<div class="row fw mb20" data-smooth-item>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearls_and_shells/image_1.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearls_and_shells/image_1.jpg?auto=compress,format" data-alt="a minimal composition of interesting 3D shapes, pearls, gold, shells, corals, white color theme, C4D, studio lighting, oc rendering">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearls_and_shells/image_2.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearls_and_shells/image_2.jpg?auto=compress,format" data-alt="a composition of interesting 3D shapes, pearls, gold, shells, corals, pastel color theme, C4D, studio lighting, oc rendering">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearls_and_shells/image_3.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearls_and_shells/image_3.jpg?auto=compress,format" data-alt="a minimal composition of interesting 3D shapes, pearls, gold, shells, corals, white color theme, C4D, studio lighting, oc rendering">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearls_and_shells/image_4.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearls_and_shells/image_4.jpg?auto=compress,format" data-alt="a composition of interesting 3D shapes, pearls, gold, shells, corals, pastel color theme, C4D, studio lighting, oc rendering">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+</div>				
+				
+<!-- Pearl Sculptures -->
+<div class="bp-content row c-black mt5 mb5" data-smooth-item>
+	<div class="col txt txt--bp">
+		<h3 class="">珍珠雕塑</h3>
+	</div>
+</div>
+<div class="row fw mb20" data-smooth-item>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearl_sculptures/image_1.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearl_sculptures/image_1.jpg?auto=compress,format" data-alt="interesting surreal looking 3D shape, pearl color, C4D, studio lighting, oc rendering">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearl_sculptures/image_2.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearl_sculptures/image_2.jpg?auto=compress,format" data-alt="interesting surreal looking 3D shape, pearl color, C4D, studio lighting, oc rendering">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearl_sculptures/image_3.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearl_sculptures/image_3.jpg?auto=compress,format" data-alt="interesting 3D shape, pearl color, C4D, studio lighting, oc rendering">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearl_sculptures/image_4.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/pearl_sculptures/image_4.jpg?auto=compress,format" data-alt="interesting 3D shape, pearl color, C4D, studio lighting, oc rendering">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Shiny Circuits -->
+<div class="bp-content row c-black mt5 mb5" data-smooth-item>
+	<div class="col txt txt--bp">
+		<h3 class="">闪亮电路</h3>
+	</div>
+</div>
+<div class="row fw mb20" data-smooth-item>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/shiny_circuits/image_1.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/shiny_circuits/image_1.jpg?auto=compress,format" data-alt="macro photography of 3D shapes, metal paint, shiny and colorful, glitter, circuits, black background, depth of field, 3d render, ultra-realistic, smooth, cinematic">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/shiny_circuits/image_2.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/shiny_circuits/image_2.jpg?auto=compress,format" data-alt="macro photography of 3D shapes, metal paint, shiny and colorful, glitter, circuits, black background, depth of field, 3d render, ultra-realistic, smooth, cinematic">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/shiny_circuits/image_3.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/shiny_circuits/image_3.jpg?auto=compress,format" data-alt="macro photography of 3D shapes, metal paint, shiny and colorful, glitter, circuits, black background, depth of field, 3d render, ultra-realistic, smooth, cinematic">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+    <div class="col s:col11 xs:col imggrid">
+        <div class="img-container" data-href="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/shiny_circuits/image_4.jpg">
+            <figure>
+                <img class="imggrid-bg" src="/static/icons/1-78.png" imggrid-data-src="https://cdn.facto.com.cn/static/images/blog/mj-generated-images-vol-1/shiny_circuits/image_4.jpg?auto=compress,format" data-alt="macro photography of 3D shapes, metal paint, shiny and colorful, glitter, circuits, black background, depth of field, 3d render, ultra-realistic, smooth, cinematic">
+            </figure>
+            <div class="copy-text">复制提示词</div>
+            <div class="open-link"><img src="/static/icons/open.svg" style="width: 1rem;"></div>
+        </div>
+    </div>
+</div>
+				
+								
+                <div class="bp-content row c-black pt20 mb75" data-smooth-item>
+                    <div class="col txt">
+						<p>以上便是我们的分享，真诚希望你能喜欢这个系列，并从中获得灵感。</p>
+						<p>如果你对这个系列有任何建议或希望我们未来探索一些特定主题，请随时<a class="link" href="https://facto.hk/contact/">联系我们</a>。</p>
+						<p>最后，我们附上该合集的所有原图及提示词打包文件，方便你在项目中使用，下载地址如下：</p>
+						<p><a class="link" rel="noopener noreferrer" target="_blank" href="https://drive.google.com/drive/folders/1hq0bIBhRHpMGpCdUD4gk5erHIMW1tDkP?usp=sharing">Google Drive 下载</a><br/><a class="link" rel="noopener noreferrer" target="_blank" href="https://pan.baidu.com/s/1mLwokFtSYTJyXZ17JlSRmQ?pwd=fact">百度云盘下载</a></p>
+                    </div>
+                </div>
+
+				
+				
+                <article class="bp-next rel row row--l gutter c-white" data-smooth-item>
+                    <a href="https://facto.hk/blog/five-problems-facing-digital-marketers-in-2023/" class="x df aic rel bp-next__inner img-fill">
+                        <img src="/static/images/blog/five-problems-facing-digital-marketers-in-2023/header.jpg?auto=compress,format" alt="Facto">
+                        <div class="row row--l rel s:abs s:top s:left s:x s:y z2 ph30 s:ph0">
+                            <div class="gutter s:col10 s:mcoll2 df fc jcc">
+                                <span class="mb30">下一篇 :</span>
+                                <h1 class="bp-next__title f30 s:f37 lh100">2023年数字营销者面临的五个问题</h1>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <footer class="sf sf--light pb45 c-black" data-smooth-item>
+                    <div class="row row--s rel gutter pt45"></div>
+                    <div class="row row--s fw sumo_footer">
+                        <ul class="dn s:db s:col4">
+                            <li>
+                                <a href="https://facto.hk/projects/" class="lh120 f12">
+                                    项目<sup>13</sup>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://facto.hk/about/" class="lh120 f12">关于我们</a>
+                            </li>
+                            <li>
+                                <a href="https://facto.hk/careers/" class="lh120 f12">
+                                    加入我们<sup>1</sup>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://facto.hk/contact/" class="lh120 f12">联系我们</a>
+                            </li>
+                        </ul>
+                        <ul class="dn s:db gutter">
+                            <li>
+                                <a href="https://facto.hk/blog/" class="lh120 f12">
+                                    实验室<sup>BLOG</sup>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://facto.hk/privacy-policy/" class="lh120 f12">隐私政策</a>
+                            </li>
+                        </ul>
+                        <form id="footer-newsletter-form" action="/php/newsletter.php" method="post" class="nl mla df fc">
+                            <input type="hidden" name="returnUrl" value="https://facto.hk/thank-you/">
+                            <label class="nl-label f12 mb15">加入我们的社区</label>
+                            <div class="nl-input input-wrap input-wrap--s rel">
+                                <input type="email" name="email" placeholder="邮箱地址">
+                                <button type="submit" class="nl__arrow abs top right df aic jce y pr15" aria-label="Submit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.11 12.14">
+                                        <path d="M11.92 5.62c-.01 0-.01 0 0 0-.01 0-.01 0 0 0L6.49.19a.664.664 0 10-.94.94l4.95 4.95L5.58 11a.664.664 0 10.94.94l5.39-5.39c.27-.25.27-.67.01-.93zm-4.14.55c0-.36-.3-.66-.66-.66L.66 5.49a.66.66 0 100 1.32l6.45.02c.37 0 .67-.29.67-.66z"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="row row--s gutter jcb mt60 footer_copyright">
+		<div class="sf-cr c-grey-2 footer_copyright_year">
+			<p class="f10px s:f14px" style="white-space: pre-wrap">© 2024 / 深圳发途网络科技有限公司</p>
+		</div>
+                        <div class="sf-locs c-grey-2 mla footer_copyright_cities">
+                            <p class="f10px s:f14px">
+                                香港<sup>HQ</sup> / 深圳 / 新加坡
+                            </p>
+                        </div>
+                    </div>
+                </footer>
+            </article>
+        </main>
+        <script type="module" src="/assets/app.js"></script>
+		<script type="module" src="/assets/facto.js"></script>
+    </body>
+</html>
